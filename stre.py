@@ -1,5 +1,5 @@
 import streamlit as st
-RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+apt-get update && apt-get install libgl1
 
 
 st.markdown("<div style='background-color: #333333;border: 3px solid #219C90; border-radius:100px;'><h1 style='text-align:center;color:white;'>TALK WITH HANDS</h1></div",unsafe_allow_html=True)
