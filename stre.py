@@ -303,7 +303,7 @@ def page_about():
                         break
 
 def mat():
-    import cv2
+    import opencv-python-headless as cv2
     import mediapipe as mp
     import numpy as np
     import streamlit as st
